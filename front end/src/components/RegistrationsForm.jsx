@@ -23,7 +23,7 @@ function RegistrationsForm() {
         
     return(
         <div>
-            <h2>Registration Form</h2>
+            <h2>SignUp Form</h2>
             <label>Full Name:</label><input name="full_name" placeholder="please enter your full name" onChange={handleChange}/> <br /><br />
             <label>Email:</label><input type="email" name="email" placeholder="please enter your email" onChange={handleChange}/> <br /><br />
             <label>Country:</label><input type="text" name="country" placeholder="please enter your country" onChange={handleChange}/> <br /><br />
